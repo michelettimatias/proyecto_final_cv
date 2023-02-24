@@ -11,32 +11,31 @@
 </head>
 <body>
 	<div class="container mx-auto p-4">
-		<div class="2xl:grid lg:grid-cols-5 gap-4 mb-0 2xl:mb-4">
-			<section id="informacion" class="overflow-visible md:overflow-hidden bg-white shadow rounded-md p-4 lg:p-0 mt-20 md:mt-0 md:p-0 md:flex lg:col-span-2">
-				<img class="relative -top-24 md:top-0 border-8 md:border-0 border-white shadow-md rounded-full md:rounded-none w-40 h-40 md:w-52 md:h-52 mx-auto -mb-20" src="images/perfil.jpg" alt="Foto de perfil">
-				<div>
-					<h1 class="text-4xl text-center font-medium text-orange-600 md:text-left mb-4 md:m-4">Micheletti Matías</h1>
-					<div class="flex flex-row items-center gap-1 md:mx-4">
-						<span class="material-symbols-outlined text-orange-600">info</span>
-						<h2 class="text-2xl">Información</h2>
-					</div>
-					<p class="md:mx-4 md:mb-4">Tengo 33 años. Vivo junto a mi novia y nuestra hija en Coronel Dorrego, Guaymallén (C.P.: 5519). Mi teléfono es 261 545-4816. Mi correo es michelettimatias@gmail.com</p>
+		<section id="informacion" class="overflow-visible md:overflow-hidden bg-white shadow rounded-md p-4 lg:p-0 mt-20 md:mt-0 md:p-0 md:flex md:h-56">
+			<img class="relative -top-24 md:top-0 border-8 md:border-0 border-white shadow-md rounded-full md:rounded-none w-40 h-40 md:w-56 md:h-56 mx-auto lg:mx-0 -mb-20" src="images/perfil.jpg" alt="Foto de perfil">
+			<div>
+				<h1 class="text-4xl text-center font-medium md:text-left mb-4 md:m-4">Micheletti Matías</h1>
+				<div class="flex flex-row items-center gap-1 md:mx-4">
+					<span class="material-symbols-outlined text-orange-600">info</span>
+					<h2 class="text-2xl text-orange-600">Información</h2>
 				</div>
-			</section>
+				<p class="md:mx-4 md:mb-4">Tengo 33 años. Vivo junto a mi novia y nuestra hija en Coronel Dorrego, Guaymallén (C.P.: 5519).</p>
+				<p class="md:mx-4 md:mb-4">Mi teléfono es 261 545-4816. Mi correo es michelettimatias@gmail.com</p>
+			</div>
+		</section>
 
-			<!-- PERFIL -->
+		<!-- PERFIL -->
 
-			<section id="perfil" class="overflow-hidden bg-white shadow rounded-md my-4 2xl:my-0 h-16 md:h-auto col-span-3">
-				<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('perfil')">
-					<span class="material-symbols-outlined text-orange-600">account_circle</span>
-					<h2 class="text-2xl">Perfil</h2>
-					<span class="material-symbols-outlined md:hidden">expand_more</span>
-				</div>
-				<div class="p-4">
-					<p>A lo largo de mi vida me he interesado por varias disciplinas aplicando siempre todos los conocimientos adquiridos para obtener un trabajo de calidad integral, adaptándome rápidamente a los cambios para permanecer siempre activo y en constante aprendizaje y desafío. En mi paso por la empresa hotelera más emblemática de la provincia descubrí una verdadera vocación de servicio y adquirí un enfoque centrado en enriquecer la experiencia del cliente. Luego en la industria gráfica pude conjugar mi pasión por el vino con mis habilidades técnicas de diseño. Hoy en día, sigo poniendo a prueba mis conocimientos, y ampliándolos en todo momento al sumergirme de lleno en la industria vitivinícola. Algunas de mis mejores cualidades son mi capacidad de analizar y optimizar los procesos, la facilidad para el manejo y resolución de problemas, y la naturalidad para alcanzar el liderazgo en los grupos de trabajo.</p>
-				</div>
-			</section>
-		</div>
+		<section id="perfil" class="overflow-hidden bg-white shadow rounded-md my-4 h-16 md:h-auto col-span-3">
+			<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('perfil')">
+				<span class="material-symbols-outlined text-orange-600">account_circle</span>
+				<h2 class="text-2xl text-orange-600">Perfil</h2>
+				<span class="material-symbols-outlined md:hidden">expand_more</span>
+			</div>
+			<div class="p-8">
+				<p>A lo largo de mi desarrollo me he interesado por varias disciplinas, aplicando siempre los nuevos conocimientos para obtener un trabajo de calidad integral, adaptándome rápidamente a los cambios para permanecer siempre activo y en constante aprendizaje y desafío. En mi paso por la empresa hotelera más emblemática de la provincia descubrí una verdadera vocación de servicio y adquirí un enfoque centrado en enriquecer la experiencia del cliente. Luego en la industria gráfica pude conjugar mi pasión por el vino con mis habilidades técnicas de diseño. Hoy en día, sigo poniendo a prueba mis conocimientos, y ampliándolos en todo momento al sumergirme de lleno en la industria vitivinícola. Algunas de mis mejores cualidades son mi capacidad de analizar y optimizar los procesos, la facilidad para el manejo y resolución de problemas, y la naturalidad para alcanzar el liderazgo en los grupos de trabajo.</p>
+			</div>
+		</section>
 		<div class="grid lg:grid-cols-2 gap-4">
 
 			<!-- IDIOMAS -->
@@ -44,12 +43,14 @@
 			<section id="idiomas" class="overflow-hidden bg-white shadow rounded-md h-16 md:h-auto">
 				<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('idiomas')">
 					<span class="material-symbols-outlined text-orange-600">language</span>
-					<h2 class="text-2xl">Idiomas</h2>
+					<h2 class="text-2xl text-orange-600">Idiomas</h2>
 					<span class="material-symbols-outlined md:hidden">expand_more</span>
 				</div>
-				<div class="p-4">
-					<p>Inglés - listening, writing y speaking: nivel avanzado</p>
-					<p>Portugués: elemental (vocabulario sobre enología)</p>
+				<div class="p-8">
+					<h3 class="font-bold">Inglés</h3>
+					<p class="italic">Listening, writing y speaking: nivel avanzado</p>
+					<h3 class="font-bold mt-8">Portugués</h3>
+					<p class="italic">Elemental (vocabulario sobre enología)</p>
 				</div>
 			</section>
 
@@ -58,15 +59,15 @@
 			<section id="estudios" class="overflow-hidden bg-white shadow rounded-md h-16 md:h-auto">
 				<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('estudios')">
 					<span class="material-symbols-outlined text-orange-600">school</span>
-					<h2 class="text-2xl">Estudios</h2>
+					<h2 class="text-2xl text-orange-600">Estudios</h2>
 					<span class="material-symbols-outlined md:hidden">expand_more</span>
 				</div>
-				<div class="p-4">
+				<div class="p-8">
 					<article>
-						<h3>2007 - I.E.S. Nº 9-008 «Manuel Belgrano»</h3>
-						<p>Técnico analista de sistemas de información - Incompleto</p>
-						<h3>2010 - 2015 - Facultad de Artes y Diseño - UNCuyo</h3>
-						<p>Diseñador Gráfico - Incompleto</p>
+						<h3 class="font-bold">Técnico analista de sistemas de información</h3>
+						<p class="italic">2007 - I.E.S. Nº 9-008 «Manuel Belgrano» - Incompleto</p>
+						<h3 class="font-bold mt-8">Diseñador Gráfico</h3>
+						<p class="italic">2010 - 2015 - Facultad de Artes y Diseño - UNCuyo - Incompleto</p>
 					</article>
 				</div>
 			</section>
@@ -78,15 +79,14 @@
 		<section id="experiencia" class="overflow-hidden bg-white shadow rounded-md my-4 h-16 md:h-auto">
 			<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('experiencia')">
 				<span class="material-symbols-outlined text-orange-600">business_center</span>
-				<h2 class="text-2xl">Experiencia Laboral</h2>
+				<h2 class="text-2xl text-orange-600">Experiencia Laboral</h2>
 				<span class="material-symbols-outlined md:hidden">expand_more</span>
 			</div>
-			<div class="grid lg:grid-cols-2 gap-4 p-4">
-				<!-- <article class="rounded-md p-4 hover:shadow-md basis-1/2 box-border"> -->
-					<article class="border border-solid rounded-md p-4 overflow-hidden hover:shadow-md">
-					<h3 class="font-bold italic mb-4 mt-1">Molinos Río de la Plata - 11/2021 a la actualidad</h3>
-					<p>Analista desarrollador de packaging</p>
-					<ul>
+			<div class="p-4 grid lg:grid-cols-2 2xl:grid-cols-3 gap-4">
+				<article class="p-4">
+					<h3 class="font-bold">Molinos Río de la Plata - 11/2021 a la actualidad</h3>
+					<p class="italic">Analista desarrollador de packaging</p>
+					<ul class="list-disc list-outside ml-6">
 						<li>Administración y envío de originales a imprenta</li>
 						<li>Adaptación de originales para mercado local y comercio exterior</li>
 						<li>Altas y administración de insumos en SAP</li>
@@ -95,10 +95,10 @@
 						<li>Actualización de especificaciones de producto</li>
 					</ul>
 				</article>
-				<article class="border border-solid rounded-md p-4 overflow-hidden hover:shadow-md">
-					<h3 class="font-bold italic">Enográfica S.A. - 03/2018 a 11/2021</h3>
-					<p>Operario de preprensa - Supervisor de turno</p>
-					<ul>
+				<article class="p-4">
+					<h3 class="font-bold">Enográfica S.A. - 03/2018 a 11/2021</h3>
+					<p class="italic">Operario de preprensa - Supervisor de turno</p>
+					<ul class="list-disc list-outside ml-6">
 						<li>Recepción, análisis y adaptación de archivos para impresión</li>
 						<li>Actualización de fichas técnicas</li>
 						<li>Actualización de especificaciones de producción</li>
@@ -108,33 +108,58 @@
 						<li>Control de stock</li>
 					</ul>
 				</article>
-				<article class="border border-solid rounded-md p-4 overflow-hidden hover:shadow-md">
+				<article class="p-4">
+					<h3 class="font-bold italic">Park Hyatt Mendoza - 03/2016 a 03/2018</h3>
+					<p class="italic">Assistant sommelier en Uvas Wine Bar y Grill Q Restaurante</p>
+					<ul class="list-disc list-outside ml-6">
+						<li>Degustaciones guiadas</li>
+						<li>Control y reposición de stock</li>
+						<li>Recomendaciones y servicio de vino</li>
+						<li>Capacitación de personal</li>
+						<li>Bartender</li>
+					</ul>
+				</article>
+				<article class="p-4">
+					<h3 class="font-bold italic">Park Hyatt Mendoza - 05/2014 a 03/2016</h3>
+					<p class="italic">Team leader en Bistró M Restaurante</p>
+					<ul class="list-disc list-outside ml-6">
+						<li>Encargado de salón</li>
+						<li>Control de calidad permanente</li>
+						<li>Manejo de quejas</li>
+						<li>Fidelización de clientes</li>
+						<li>Capacitación de personal</li>
+					</ul>
+				</article>
+				<article class="p-4">
+					<h3 class="font-bold italic">Park Hyatt Mendoza - 02/2012 a 05/2014</h3>
+					<p class="italic">Mozo-cajero en Bistró M Restaurante y Terrazas de la Plaza</p>
+					<ul class="list-disc list-outside ml-6">
+						<li>Apertura y cierre de outles</li>
+						<li>Facturaciones, cierres, arqueos de caja</li>
+						<li>Control y reposición de stock</li>
+						<li>Asistencia a los huéspedes</li>
+					</ul>
+				</article>
+				<article class="p-4">
 					<h3 class="font-bold italic">Independiente / Freelance - 2010 hasta la fecha</h3>
-					<ul>
+					<p class="italic">Diseñador gráfico</p>
+					<ul class="list-disc list-outside ml-6">
 						<li>Diseño gráfico: branding, packaging, lettering y caligrafía</li>
 						<li>Desarrollo fullstack de sitios web</li>
 						<li>Creación de contenidos para redes sociales</li>
 						<li>Edición de video: motion graphics</li>
 					</ul>
 				</article>
-				<article class="border border-solid rounded-md p-4 overflow-hidden hover:shadow-md">
-					<h3 class="font-bold italic">Park Hyatt Mendoza - 02/2012 a 03/2018</h3>
-					<ul>
-						<li>Assistant sommelier en Uvas Wine Bar y Grill Q Restaurante</li>
-						<li>Mozo-cajero en Bistró M Restaurante y Terrazas de la Plaza</li>
-						<li>Team leader en Bistró M Restaurante</li>
-					</ul>
-				</article>
-				<article class="border border-solid rounded-md p-4 overflow-hidden hover:shadow-md">
+				<article class="p-4">
 					<h3 class="font-bold italic">Leiva & Asociados - Inmobiliaria - Posición eventual - 2014 a 2016</h3>
-					<ul>
+					<ul class="list-disc list-outside ml-6">
 						<li>Cobranza y liquidación de alquileres</li>
 						<li>Diseño gráfico y web, desarrollo y mantenimiento de sitio web</li>
 					</ul>
 				</article>
-				<article class="border border-solid rounded-md p-4 overflow-hidden hover:shadow-md">
+				<article class="p-4">
 					<h3 class="font-bold italic">Cromologías - Centro de copiado - 2011</h3>
-					<ul>
+					<ul class="list-disc list-outside ml-6">
 						<li>Atención al público</li>
 						<li>Mantenimiento de equipos</li>
 					</ul>
@@ -147,20 +172,28 @@
 		<section id="cursos" class="overflow-hidden bg-white shadow rounded-md my-4 h-16 md:h-auto">
 			<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('cursos')">
 				<span class="material-symbols-outlined text-orange-600">local_library</span>
-				<h2 class="text-2xl">Cursos</h2>
+				<h2 class="text-2xl text-orange-600">Cursos</h2>
 				<span class="material-symbols-outlined md:hidden">expand_more</span>
 			</div>
-			<div class="p-4">
-				<h3>Taller de Lettering - Nivel inicial - 2016</h3>
-				<p>Dictado por estudio Manuelle Mancini</p>
-				<h3>Diplomatura en Programación Web Full Stack con PHP - 2021</h3>
-				<p>Dictado por UTN FRRE</p>
-				<h3>Desarrollador Full Stack con Python</h3>
-				<p>Programa Codo a codo 4.0</p>
-				<p>Ministerio de educación de la Ciudad Autónoma de Buenos Aires</p>
-				<h3>Desarrollador Full Stack con React</h3>
-				<p>Programa Codo a codo 4.0</p>
-				<p>Ministerio de educación de la Ciudad Autónoma de Buenos Aires</p>
+			<div class="p-4 lg:flex flex-wrap">
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold mt-2">Desarrollador Full Stack con React</h3>
+					<p class="italic">2022 - Programa Codo a codo 4.0</p>
+					<p>Ministerio de educación de la Ciudad Autónoma de Buenos Aires</p>
+				</div>
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold mt-2">Desarrollador Full Stack con Python</h3>
+					<p class="italic">2022 - Programa Codo a codo 4.0</p>
+					<p>Ministerio de educación de la Ciudad Autónoma de Buenos Aires</p>
+				</div>
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold mt-2">Diplomatura en Programación Web Full Stack con PHP</h3>
+					<p class="italic">2021 - Dictado por UTN FRRE</p>
+				</div>
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold">Taller de Lettering - Nivel inicial</h3>
+					<p class="italic">2016 - Dictado por estudio Manuelle Mancini</p>
+				</div>
 			</div>
 		</section>
 
@@ -169,20 +202,65 @@
 		<section id="informatica" class="overflow-hidden bg-white shadow rounded-md my-4 h-16 md:h-auto">
 			<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('informatica')">
 				<span class="material-symbols-outlined text-orange-600">devices</span>
-				<h2 class="text-2xl">Herramientas informáticas</h2>
+				<h2 class="text-2xl text-orange-600">Herramientas informáticas</h2>
 				<span class="material-symbols-outlined md:hidden">expand_more</span>
 			</div>
-			<div class="p-4">
-				<h3>Software de diseño</h3>
-				<p>llustrator, InDesign, Dreamweaver - nivel avanzado</p>
-				<p>After Effects, Photoshop - nivel medio</p>
-				<h3>MS Office</h3>
-				<p>Word, Excel, Access, Power Point - nivel avanzado</p>
-				<h3>Desarrollo web</h3>
-				<p>HTML5, CSS3 - Nivel avanzado</p>
-				<h3>Lenguajes de programación</h3>
-				<p>PHP, JavaScript, Python - nivel medio</p>
+			<div class="p-4 lg:flex flex-wrap">
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold">Software de diseño</h3>
+					<p class="italic">llustrator, InDesign, Dreamweaver - nivel avanzado</p>
+					<p class="italic">After Effects, Photoshop - nivel medio</p>
+				</div>
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold mt-2">Desarrollo web</h3>
+					<p class="italic">HTML5, CSS3 - Nivel avanzado</p>
+				</div>
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold mt-2">Lenguajes de programación</h3>
+					<p class="italic">JavaScript - nivel avanzado</p>
+					<p class="italic">PHP, Python - nivel medio</p>
+				</div>
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold mt-2">Bases de datos</h3>
+					<p class="italic">MySQL, MongoDB, MS Access - nivel medio</p>
+				</div>
+				<div class="basis-1/2 2xl:basis-1/3 p-4">
+					<h3 class="font-bold mt-2">MS Office</h3>
+					<p class="italic">Word, Excel, Access, Power Point - nivel avanzado</p>
+				</div>
 			</div>
+		</section>
+		<section id="contacto" class="overflow-hidden bg-white shadow rounded-md my-4 h-16 md:h-auto">
+			<div class="flex flex-row items-center gap-1 border-b p-4 bg-slate-50" onclick="desplegar('contacto')">
+				<span class="material-symbols-outlined text-orange-600">mail</span>
+				<h2 class="text-2xl text-orange-600">Contactame</h2>
+				<span class="material-symbols-outlined md:hidden">expand_more</span>
+			</div>
+			<form class="p-8 grid grid-cols-2 gap-4">
+				<div class="grid">
+					<label for="name">Nombre:</label>
+					<input id="name" type="text" name="name" class="border border-solid border-slate-500 rounded p-1 outline-slate-500 focus:outline-orange-600" placeholder="Nombre">
+				</div>
+				<div class="grid">
+					<label for="lastname">Apellido:</label>
+					<input id="lastname" type="text" name="lastname" class="border border-solid border-slate-500 rounded p-1 outline-slate-500 focus:outline-orange-600" placeholder="Apellido">
+				</div>
+				<div class="grid">
+					<label for="mail">Correo electrónico</label>
+					<input id="mail" type="mail" name="mail" class="border border-solid border-slate-500 rounded p-1 outline-slate-500 focus:outline-orange-600" placeholder="ejemplo@mail.com">
+				</div>
+				<div class="grid">
+					<label for="phone">Teléfono:</label>
+					<input id="phone" type="phone" name="phone" class="border border-solid border-slate-500 rounded p-1 outline-slate-500 focus:outline-orange-600" placeholder="Ej.: 5492611234567">
+				</div>
+				<div class="grid col-span-2">
+					<label for="message">Mensaje:</label>
+					<textarea id="message" name="message" class="border border-solid border-slate-500 rounded p-1 outline-slate-500 focus:outline-orange-600" placeholder="Dejame un mensaje"></textarea>
+				</div>
+				<div class="flex justify-end col-span-2">
+					<button id="contactSubmit" type="submit" class="bg-orange-500 hover:bg-orange-600 active:bg-orange-500 rounded mt-6 h-10 basis-1/2 md:basis-1/3 lg:basis-1/4">Enviar</button>
+				</div>
+			</form>
 		</section>
 	</div>
 	<script src="scripts/script.js"></script>
